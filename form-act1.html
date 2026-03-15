@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Find Your Partner Survey Form </h1>
+    <p id="description">You can help millions of lovers to fulfill their dreams</p>
+    
+    <form id="survey-form">
+     <fieldset> 
+       <legend>Personal Details</legend>
+      <label for="name" id="name-label">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+      <br>
+
+      <label for="email" id="email-label">Email address:</label>
+      <input type="email" id="email" name="email" placeholder="johndoe1@email.com" required>
+
+      <br>
+
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" id="number" name="number" min="18" max="50" placeholder="18">
+
+
+
+
+
+
+     </fieldset>
+
+     <p>please describe your relationship status for better experiance</p>
+    <label for="dropdown">Relationship Status</label>
+
+    <select id="dropdown" name="dropdown">
+      <option value="single">Single</option>
+      <option value="married" selected>Married</option>
+      <option value="divorced">Divorced</option>
+      <option value="LGBTQ+">LGBTQ+</option>
+    </select>
+     
+     <br>
+     <p> what kind of quality you looking in your partner?</p>
+
+    <input type="radio" id="Loyal" name="quality" value="Loyal">
+    <label for="Loyal">Loyal</label>
+    <input type="radio" id="educated" name="quality" value="Educated">
+    <label for="educated">Educated</label>
+    <input type="radio" id="rich" name="quality" value="Rich">
+    <label for="rich">Rich</label>
+    <input type="radio" id="fun" name="quality" value="Funny">
+    <label for="fun">Funny</label>
+
+    <br>
+    <br>
+
+  <fieldset>
+    <legend>Would you like to add donation</legend>
+    <input type="checkbox" id="one" value="$10">
+    <label for="one">$10</label>
+
+    <input type="checkbox" id="two" value="$20">
+    <label for="two">$20</label>
+
+    <input type="checkbox" id="custom" value="custom">
+    <label for="custom">Custom</label>
+
+  </fieldset>  
+
+  <h4>Share your story...<h4>
+  <textarea id="cmnt" cols="25" rows="13"></textarea>
+
+  <br>
+
+  <button type="submit" id="submit">Submit</button>
+
+
+    </form>
+    
+  </body>
+</html>
