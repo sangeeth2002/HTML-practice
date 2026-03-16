@@ -7,6 +7,7 @@ first-blog.html- (used main semantic HTML elements)
 quoted-elements.html-
 event-hub.html
 hotel-feedback-form.html - use form , input elements
+audio-player.html- use audio element
 
 ## Learning Source
 Practicing HTML using freeCodeCamp.
